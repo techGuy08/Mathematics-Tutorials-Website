@@ -35,14 +35,25 @@ body {
 }
 .searchForm {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .searchForm button {
   display: inline-block;
   margin: 0 0 0 auto;
-  float: right;
+  background: #444;
+  border: 0;
+  padding: 7px 14px;
+  color: #fff;
+  border-radius: 4px;
+  height: 30px;
+  cursor: pointer;
 }
 .searchForm input {
   font-size: 18px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #000;
 }
 .nav {
   color: #fff;
@@ -55,9 +66,14 @@ body {
 }
 .nav .nav-link {
   text-decoration: none;
-  color: #646464;
-  padding: 20px;
+  color: #000;
+  padding: 20px 40px;
   display: inline-block;
+  transition: background 0.3s;
+}
+.nav .nav-link:hover {
+  background: #fff;
+  color: #e0873f;
 }
 @media all and (min-width: 769px) {
   .row .col-1 {
