@@ -137,20 +137,20 @@ body {
   background: transparent;
   border-color: #444;
 }
-.whyUs-list{
-  margin-top:80px;
+.whyUs-list {
+  margin-top: 80px;
 }
-.whyUs-list .item{
-  font-size:30px;
-  list-style:none;
-  line-height:1.2;
-  margin-bottom:20px;
-  padding:0 20px 0 50px;
-  position:relative;
+.whyUs-list .item {
+  font-size: 30px;
+  list-style: none;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  padding: 0 20px 0 50px;
+  position: relative;
 }
-.whyUs-list .item:before{
-  content:"";
-  position:absolute;
+.whyUs-list .item:before {
+  content: "";
+  position: absolute;
   width: 26px;
   height: 10px;
   top: 0px;
@@ -161,7 +161,12 @@ body {
   border-radius: 5px;
   transform: rotate(-45deg);
 }
-
+footer {
+  background: #444;
+  color: #fff;
+  padding: 30px 50px;
+  text-align: center;
+}
 @media all and (min-width: 769px) {
   .row .col-1 {
     grid-column: span 1;
