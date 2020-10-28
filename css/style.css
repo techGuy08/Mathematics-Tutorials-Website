@@ -103,6 +103,65 @@ body {
   max-width: 80%;
   text-shadow: 0 0 3px black;
 }
+.goto-wrapper,
+.whyUs-wrapper {
+  padding: 12px 40px 34px;
+  border: 12px solid #ff9642;
+  border-radius: 7px;
+  background: #fff8cd;
+  height: 100%;
+}
+.goto-wrapper .title,
+.whyUs-wrapper .title {
+  color: #000;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.lessons-list .item {
+  list-style: none;
+}
+.lessons-list .item a {
+  background: #444;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  font-size: 21px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 2px solid transparent;
+  transition: background 0.3s;
+}
+.lessons-list .item a:hover {
+  color: #444;
+  background: transparent;
+  border-color: #444;
+}
+.whyUs-list{
+  margin-top:80px;
+}
+.whyUs-list .item{
+  font-size:30px;
+  list-style:none;
+  line-height:1.2;
+  margin-bottom:20px;
+  padding:0 20px 0 50px;
+  position:relative;
+}
+.whyUs-list .item:before{
+  content:"";
+  position:absolute;
+  width: 26px;
+  height: 10px;
+  top: 0px;
+  left: -5px;
+  border: 7px solid transparent;
+  border-bottom-color: #ff9642;
+  border-left-color: #ff9642;
+  border-radius: 5px;
+  transform: rotate(-45deg);
+}
+
 @media all and (min-width: 769px) {
   .row .col-1 {
     grid-column: span 1;
@@ -139,5 +198,11 @@ body {
   }
   .row .col-12 {
     grid-column: span 12;
+  }
+  .goto-wrapper {
+    margin-right: 10px;
+  }
+  .whyUs-wrapper {
+    margin-left: 10px;
   }
 }
