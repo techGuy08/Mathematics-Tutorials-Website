@@ -162,6 +162,12 @@ body {
   border-radius: 5px;
   transform: rotate(-45deg);
 }
+.contact-content .title {
+  text-align: center;
+  font-size: 52px;
+  margin: 30px 0;
+  text-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+}
 footer {
   background: #444;
   color: #fff;
